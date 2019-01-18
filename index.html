@@ -13,37 +13,57 @@
         <h1>What programming track should I choose?</h1>
         <form id="tracks">
           <div class="form-group">
-            <label for="name">Name:</label>
+            <label for="name">Enter you name:</label>
             <input id="name" class="form-control" type="text">
           </div>
 
           <div class="form-group">
             <label for="who">Who do you want to work for?</label>
             <select class="form-control" id="who">
-              <option value="1">Large companies and government agencies.</option>
-              <option value="2">Enterprise-level companies.</option>
-              <option value="3">Companies with lots of clients.</option>
-              <option value="4">Start-ups.</option>
+              <option value="1">Large companies and government agencies</option>
+              <option value="2">Enterprise-level companies</option>
+              <option value="3">Companies with lots of clients</option>
+              <option value="4">Start-ups</option>
             </select>
           </div>
 
           <div class="form-group">
             <label for="what">What are your interests?</label>
             <select class="form-control" id="what">
-              <option value="1">Databases and business applications.</option>
-              <option value="2">Android user interface.</option>
-              <option value="3">Security.</option>
-              <option value="4">Interactive web applications.</option>
+              <option value="1">Databases and business applications</option>
+              <option value="2">Android user interface</option>
+              <option value="3">Security</option>
+              <option value="4">Interactive web applications</option>
             </select>
           </div>
 
           <div class="form-group">
             <label for="how">How do you like to work?</label>
             <select class="form-control" id="how">
-              <option value="1">One large project at a time.</option>
-              <option value="2">A few projects at a time.</option>
-              <option value="3">Fast pace with a lot of projects.</option>
-              <option value="4">Depends on the day.</option>
+              <option value="1">One large project at a time</option>
+              <option value="2">A few projects at a time</option>
+              <option value="3">Fast pace with a lot of projects</option>
+              <option value="4">Depends on the day</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="motive">What is your motivation for a programming career?</label>
+            <select class="form-control" id="motive">
+              <option value="1">Money, its all about the benjamins</option>
+              <option value="2">Style is everything</option>
+              <option value="3">Ruling the internet</option>
+              <option value="4">Helping the little guy</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="nick">What is your favorite Nicolas Cage movie?</label>
+            <select class="form-control" id="nick">
+              <option value="1">ConAir</option>
+              <option value="2">National Treasure</option>
+              <option value="3">Leaving Las Vegas</option>
+              <option value="4">City of Angels</option>
             </select>
           </div>
 
@@ -52,31 +72,35 @@
 
         <div id="output">
           <h1>Your track should be:</h1>
-          <p>
+          <h2>
           Well done, <span class="name"></span>! Based on your answers the best fit for you would be<span id="output"></span>:
-          </p>
+          </h2>
 
           <div id="c">
-            <p>C#
-            </p>
+            <h2>C#</h2>
+              <p>See for yourself <a href="https://www.epicodus.com/c-sharp">here</a>.
+              </p>
             <img src="img/ncbunny.jpg" alt="Nicolas Cage bunny">
           </div>
 
           <div id="java">
-            <p>Javascript
-            </p>
+            <h2>Javascript</h2>
+              <p>See for yourself <a href="https://www.epicodus.com/java">here</a>.
+              </p>
             <img src="img/nchippo.jpg" alt="Nicolas Cage">
           </div>
 
           <div id="php">
-            <p>PHP
-            </p>
+            <h2>PHP</h2>
+              <p>See for yourself <a href="https://www.epicodus.com/php">here</a>.
+              </p>
             <img src="img/nckitty.jpg" alt="Nicolas Cage kitty">
           </div>
 
           <div id="ruby">
-            <p>Ruby
-            </p>
+            <h2>Ruby</h2>
+              <p>See for yourself <a href="https://www.epicodus.com/ruby">here</a>.
+              </p>
             <img src="img/nctang.jpg" alt="Nicolas Cage orangutan">
           </div>
 

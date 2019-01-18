@@ -7,8 +7,14 @@ body {
   color: grey;
 }
 
+.btn:hover {
+  background-color: white;
+  color: grey;
+}
+
 .btn {
   color: yellow;
+  border: 2px solid grey;
 }
 
 #output {
