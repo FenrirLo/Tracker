@@ -1,7 +1,6 @@
 $(document).ready(function() {
   $("form#tracks").submit(function() {
     var nameInput = $("input#name").val();
-    // var quote = add(who, how, what).val();
     var who = parseInt($("#who").val());
     var what = parseInt($("#what").val());
     var how = parseInt($("#how").val());
@@ -10,25 +9,25 @@ $(document).ready(function() {
     console.log('how:' + how)
     console.log('what:' + what)
 
-    if (who + what + how === 3) {
+    if (who + what + how >= 3) {
       $("#c").show();
       $("#java").hide();
       $("#php").hide();
       $("#ruby").hide();
     }
-    if (who + what + how === 6) {
+    if (who + what + how >= 7) {
       $("#c").hide();
       $("#java").show();
       $("#php").hide();
       $("#ruby").hide();
     }
-    if (who + what + how === 9) {
+    if (who + what + how >= 9) {
       $("#c").hide();
       $("#java").hide();
       $("#php").show();
       $("#ruby").hide();
     }
-    if (who + what + how === 12) {
+    if (who + what + how >= 10) {
       $("#c").hide();
       $("#java").hide();
       $("#php").hide();
