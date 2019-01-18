@@ -1,10 +1,15 @@
 .jumbotron {
-  text-align: left;
-  font-weight: bolder;
-  color: purple;
+  background-image: url("../img/bgimg.jpg");
+  background-size: cover;
 }
 
+body {
+  color: grey;
+}
 
+.btn {
+  color: yellow;
+}
 
 #output {
   display: none;
@@ -12,6 +17,7 @@
 
 #c {
   display: none;
+  image-size:
 }
 
 #java {
