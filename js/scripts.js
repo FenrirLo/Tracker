@@ -9,22 +9,34 @@ $(document).ready(function() {
     console.log('who:' + who)
     console.log('how:' + how)
     console.log('what:' + what)
-    var result;
-  //   if (who === "1") {
-  //     result = "#c";
-  //   } else if (who === "2") {
-  //     result = "#java";
-  //   } else if (who === "3") {
-  //     result = "#php";
-  //   } else if (who === "4") {
-  //     result = "#ruby";
-  // }
+
+
+    if ("#who" + "#how" + "#what" === 3) {
+      $("#c").show();
+      $("#java").hide();
+      $("#php").hide();
+      $("#ruby").hide();
+    } else if (who + how + what === 6) {
+      r$("#c").hide();
+      $("#java").show();
+      $("#php").hide();
+      $("#ruby").hide();
+    } else if (who + how + what === 9) {
+      $("#c").hide();
+      $("#java").hide();
+      $("#php").show();
+      $("#ruby").hide();;
+    } else if (who + how + what === 12) {
+      $("#c").hide();
+      $("#java").hide();
+      $("#php").hide();
+      $("#ruby").show();;
+    }
 
     $(".name").text(nameInput);
-    // $("#result").text(quote);
 
     event.preventDefault();
-
+console.log('output')
     $("#output").show();
   });
 });
