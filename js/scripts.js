@@ -14,6 +14,34 @@ $(document).ready(function() {
     } else if (who === "4") {
       result = "#ruby";
     }
+
+    var how = parseInt($("#how").val());
+    console.log('how:' + how)
+    var result;
+    if (how === "1") {
+      result = "#c";
+    } else if (how === "2") {
+      result = "#java";
+    } else if (how === "3") {
+      result = "#php";
+    } else if (how === "4") {
+      result = "#ruby";
+    }
+
+    var what = parseInt($("#what").val());
+    console.log('what:' + what)
+    var result;
+    if (what === "1") {
+      result = "#c";
+    } else if (what === "2") {
+      result = "#java";
+    } else if (what === "3") {
+      result = "#php";
+    } else if (what === "4") {
+      result = "#ruby";
+    }
+
+
     $(".name").text(nameInput);
 
     event.preventDefault();
