@@ -10,33 +10,35 @@ $(document).ready(function() {
     console.log('how:' + how)
     console.log('what:' + what)
 
-
-    if ("#who" + "#how" + "#what" === 3) {
+    if (who + what + how === 3) {
       $("#c").show();
       $("#java").hide();
       $("#php").hide();
       $("#ruby").hide();
-    } else if (who + how + what === 6) {
-      r$("#c").hide();
+    }
+    if (who + what + how === 6) {
+      $("#c").hide();
       $("#java").show();
       $("#php").hide();
       $("#ruby").hide();
-    } else if (who + how + what === 9) {
+    }
+    if (who + what + how === 9) {
       $("#c").hide();
       $("#java").hide();
       $("#php").show();
-      $("#ruby").hide();;
-    } else if (who + how + what === 12) {
+      $("#ruby").hide();
+    }
+    if (who + what + how === 12) {
       $("#c").hide();
       $("#java").hide();
       $("#php").hide();
-      $("#ruby").show();;
+      $("#ruby").show();
     }
 
     $(".name").text(nameInput);
+    console.log('output')
+        $("#output").show();
 
     event.preventDefault();
-console.log('output')
-    $("#output").show();
   });
 });
