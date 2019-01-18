@@ -10,6 +10,8 @@ _This site will offer a suggestion for a programming track based on how the ques
 
 ## Setup/Installation Requirements
 
-* _To view the track suggester launch the html in a chrome web browser._
+* _To view the track suggester:
+* _Clone the project onto your computer
+* _Launch the index.html file in a chrome web browser_
 
 Copyright (c) 2019 **_{Fenrir Lombardi}_**
