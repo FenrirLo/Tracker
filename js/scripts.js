@@ -2,6 +2,8 @@ $(document).ready(function() {
   $("form#tracks").submit(function() {
     var nameInput = $("input#name").val();
     var who = parseInt($("#who").val());
+    console.log('name:' + nameInput)
+    console.log('who:' + who)
     var result;
     if (who === "1") {
       result = "#c";
