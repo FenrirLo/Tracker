@@ -6,12 +6,6 @@ $(document).ready(function() {
     var how = parseInt($("#how").val());
     var motive = parseInt($("#motive").val());
     var nick = parseInt($("#nick").val());
-    console.log('name:' + nameInput)
-    console.log('who:' + who)
-    console.log('how:' + how)
-    console.log('what:' + what)
-    console.log('motive:' + motive)
-    console.log('nick:' + nick)
 
     if (who + what + how + motive + nick >= 5) {
       $("#c").show();
@@ -39,7 +33,6 @@ $(document).ready(function() {
     }
 
     $(".name").text(nameInput);
-    console.log('output')
         $("#output").show();
 
     event.preventDefault();
